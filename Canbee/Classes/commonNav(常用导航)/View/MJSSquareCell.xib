@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MJSSquareCell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="93"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="93"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="喇叭.png" translatesAutoresizingMaskIntoConstraints="NO" id="P9E-p9-Vrq">
+                        <rect key="frame" x="10" y="5" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="bo0-W5-MRQ"/>
+                            <constraint firstAttribute="width" constant="60" id="wrb-RT-Hd9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyy-6q-MID">
+                        <rect key="frame" x="19" y="70" width="42" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="zyy-6q-MID" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="1ua-Su-CkG"/>
+                <constraint firstItem="zyy-6q-MID" firstAttribute="top" secondItem="P9E-p9-Vrq" secondAttribute="bottom" constant="5" id="CmZ-Ja-01S"/>
+                <constraint firstItem="P9E-p9-Vrq" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="VCG-tf-Ho4"/>
+                <constraint firstItem="P9E-p9-Vrq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="sa9-Hf-gmt"/>
+                <constraint firstAttribute="bottom" secondItem="zyy-6q-MID" secondAttribute="bottom" constant="5" id="ugS-ac-nkb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="80" height="93"/>
+            <connections>
+                <outlet property="iconView" destination="P9E-p9-Vrq" id="buN-fS-aQ3"/>
+                <outlet property="nameView" destination="zyy-6q-MID" id="IOw-rU-toK"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="84.040178571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="喇叭.png" width="16.5" height="16.5"/>
+    </resources>
+</document>

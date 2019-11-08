@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  Canbee
+//
+//  Created by Kluth on 2019/10/30.
+//  Copyright © 2019 yu_jing_shan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIView+Frame.h"
+#import "UIColor+Hex.h"
+#import "UIImage+Image.h"
+
+#import  "alertViewController.h"
+#import  "CustomIOSAlertView.h"
+#define MJSWritePlist(filename) [responseObject writeToFile:[NSString stringWithFormat:@"/Users/kluth/Desktop/Canbee/Canbee/Canbee/Canbee/Classes/main(主页)/Model/%@.plist",@#filename] atomically:YES];
+#define MJSColor(r,g,b) [UIColor colorWithRed:r/256.0 green:g/256.0 blue:b/256.0 alpha:1];
+#define MJSSreenH [UIScreen mainScreen].bounds.size.height
+#define MJSSreenW [UIScreen mainScreen].bounds.size.width
+#define MJSAFNWriteToPlist(filename) [responeObject writeToFile:[NSString stringWithFormat:@"%@.plist",@#filename] atomically:YES];
+#endif /* PrefixHeader_pch */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif

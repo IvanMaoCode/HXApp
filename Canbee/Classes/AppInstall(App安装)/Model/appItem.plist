@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image_list</key>
+		<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1568269172930&amp;di=2b682c516a78c7df5c3c8c27d423d9c7&amp;imgtype=0&amp;src=http%3A%2F%2Fupload.chinaz.com%2F2018%2F0906%2F201809061420356296.jpg</string>
+		<key>sub_number</key>
+		<string>8276</string>
+		<key>app_Intro</key>
+		<string>APP简介</string>
+		<key>app_name</key>
+		<string>APP名称</string>
+	</dict>
+	<dict>
+		<key>image_list</key>
+		<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1568269172930&amp;di=2b682c516a78c7df5c3c8c27d423d9c7&amp;imgtype=0&amp;src=http%3A%2F%2Fupload.chinaz.com%2F2018%2F0906%2F201809061420356296.jpg</string>
+		<key>sub_number</key>
+		<string>8276</string>
+		<key>app_Intro</key>
+		<string>APP简介</string>
+		<key>app_name</key>
+		<string>APP名称</string>
+	</dict>
+	<dict>
+		<key>image_list</key>
+		<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1568269172930&amp;di=2b682c516a78c7df5c3c8c27d423d9c7&amp;imgtype=0&amp;src=http%3A%2F%2Fupload.chinaz.com%2F2018%2F0906%2F201809061420356296.jpg</string>
+		<key>sub_number</key>
+		<string>8276</string>
+		<key>app_Intro</key>
+		<string>APP简介</string>
+		<key>app_name</key>
+		<string>APP名称</string>
+	</dict>
+</array>
+</plist>
